@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 460px;
+    
+}
+
+.hero-container{
+    max-width: 1216px;
+    width: 80%;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+
+    img{
+        max-width: 400px;
+        height: 460px;
+        object-fit: contain;
+    }
+
+
+    .group{
+        max-width: 581px;
+        max-height: 281px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        h1{
+            font-weight: 600;
+            font-size: 40px;
+
+
+            span{
+                color: #846aff;
+            }
+        }
+
+        p{
+            width: 550px;
+            font-weight: 400;
+            font-size: 24px;
+        }
+
+
+        button{
+            max-width: 214px;
+            max-height: 49px;
+            border-radius: 4px;
+            border: none;
+            padding: 14px 32px;
+            background-color: #846aff;
+            color: #ffffffff;
+            font-weight: 700;
+            font-size: 18px;
+
+        }
+
+    }
+    
+}
+
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cont-container{
+    max-width: 1216px;
+    max-height: 913px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 113px;
+
+    p{
+        width: 328px;
+        font-weight: 600;
+        font-size: 32px;
+        color: #121214;
+    }
+
+
+
+   .cont-cards{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+
+     .cards{
+        border-radius: 8px;
+        max-width: 387px;
+        max-height: 357px;
+
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            padding: 32px 24px;
+            gap: 12px;
+
+            .t1{
+                font-weight: 600;
+                font-size: 20px;
+                color: #121214;
+            }
+
+
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                color: #121214;
+            }
+        }
+
+
+
+        img{
+            width: 384px;
+            height: 175px;
+        }
+    }
+
+   }
+
+}
+
+
+.section-form{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+
+    .form-container{
+        width: 70%;
+        height: 70%;
+        max-width: 592px;
+        max-height: 498px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+
+
+
+        p{
+            font-weight: 600;
+            font-size: 32px;
+            color: #121214;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 100%;
+
+
+            .form-group{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                width: 100%;
+
+
+                input{
+                    width: 100%;
+                    max-height: 59px;
+                    padding: 19px 24px;
+                    background-color: #ffffffff;
+                    border: 1px solid #eaeaea;
+                    border-radius: 4px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #7c7cba;
+                }
+
+                textarea{
+                    padding: 19px 24px;
+                    height: 150px;
+                    border: 1px solid #eaeaea;
+                    border-radius: 4px;
+                    color: #7c7cba;   
+                    
+                }
+            }
+
+
+            button{
+                padding: 14px 32px;
+                background-color: #846aff;
+                border-radius: 4px;
+                width: 100%;
+                color: #ffffffff;
+                font-size: 16px;
+                font-weight: 700;
+                border: none;
+
+
+            }
+        }
+
+    }
+}
+
+

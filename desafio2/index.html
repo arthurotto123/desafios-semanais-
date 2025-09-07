@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="hero">
@@ -22,10 +23,11 @@
     <section class="cont">
         <div class="cont-container">
             <p>Artigos recomendados</p>
+            <div class="cont-cards">
             <div class="cards" id="card0">
                 <img src="img/2629ac1e5dc3c563ef4f45f47300e73a6c0638a3.jpg" alt="">
                 <div class="content">
-                    <p>O que é linguagem de programação? COnheça as principais </p>
+                    <p class="t1">O que é linguagem de programação? COnheça as principais </p>
                     <p>Uma das mais populares vertentes da tecnologia da informação a área da...</p>
                 </div>
             </div>
@@ -34,7 +36,7 @@
              <div class="cards" id="card1">
                 <img src="img/a8746c50c2b7d204c4c61b03dbb453f48782287d.jpg" alt="">
                 <div class="content">
-                    <p>Python: por que a linguagem é tão usada para Data Science e finanças </p>
+                    <p class="t1">Python: por que a linguagem é tão usada para Data Science e finanças </p>
                     <p>O mundo da prograqmação conta com algumas opções de linguagem para...</p>
                 </div>
             </div>
@@ -43,7 +45,7 @@
          <div class="cards" id="card2">
                 <img src="img/9269dffb0774e6bda58ceff11be2b4135fe1af2c.jpg" alt="">
                 <div class="content">
-                    <p>GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</p>
+                    <p class="t1">GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários</p>
                     <p>O popular serviço de repositório de código GitHub foi adquirido pela...</p>
                 </div>
             </div>
@@ -54,7 +56,7 @@
             <div class="cards" id="card3">
                 <img src="img/d030c11b4879af18b380e22ebb5bbc5f275da0a1.jpg" alt="">
                 <div class="content">
-                    <p>15 comandos no GIT que os desenvolvedores precisam saber</p>
+                    <p class="t1">15 comandos no GIT que os desenvolvedores precisam saber</p>
                     <p>Dominar os comandos GIT é uma habilidade que conquista com...</p>
                 </div>
             </div>
@@ -63,7 +65,7 @@
              <div class="cards" id="card4">
                 <img src="img/d3ec5c1bec322d227d55c9645999f5e58b5a0c8f.jpg" alt="">
                 <div class="content">
-                    <p>GIT e GitHub: o que são e quais as diferenças entre eles?</p>
+                    <p class="t1">GIT e GitHub: o que são e quais as diferenças entre eles?</p>
                     <p>GIT e GitHUb são dois softwares de controle de versão essenciais para...</p>
                 </div>
             </div>
@@ -72,10 +74,27 @@
              <div class="cards" id="card4">
                 <img src="img/c5e521cd35463333aad27af6a261d4fff822f1b2.jpg" alt="">
                 <div class="content">
-                    <p>GitHub Copilot ganha integração com GPT-4 e  interface conversacional</p>
+                    <p class="t1">GitHub Copilot ganha integração com GPT-4 e  interface conversacional</p>
                     <p>O GitHub Copilot, ferramenta de desenvolvimento baseada em IA</p>
                 </div>
             </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-form">
+        <div class="form-container">
+        <p>Entre em contato</p>
+        <div class="form">
+            <div class="form-group">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Email">
+            <textarea placeholder="Assunto da Mensagem" name="Assunto da Mensagem" id=""></textarea>
+            </div>
+
+            <button>
+                Entre em contato
+            </button>
+        </div>
         </div>
     </section>
 </body>
